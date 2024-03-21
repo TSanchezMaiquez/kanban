@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+      
+}
+
+main {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background: url('1.jpg') no-repeat center center scroll;
+    background-size: cover; 
+}
+
+h1 {
+    display: block;
+    position: absolute;
+    top: -0%;
+    left: 44%;
+    margin: 0;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 15px;
+    display: block;
+    background-color: rgba(0, 81, 255, 0.2);
+    width: 180px;
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+.column {
+    float: left;
+    margin-top: 80px;
+    width: 18% ;
+    background-color: rgba(189, 224, 253, 0.4);
+    margin-left: 22px;
+    border-radius: 15px;
+}
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin: 15px;
+}
+h2{
+    margin-bottom: 7px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+h3{
+    margin: 0;
+    margin-top: 10px;
+}
+i{
+    display: inline;
+}
+
+.tags .tag {
+    display: inline-block; 
+    margin-right: 5px; 
+}
+.cierre{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 10;
+    float: right;
+    top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+}
+.front, .back, .device{
+    
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+}
+.front {
+    background-color: rgb(56, 216, 56);
+}
+
+.back {
+    background-color: rgb(228, 129, 84);
+}
+.device{
+    background-color: rgb(253, 231, 134);
+}
+.card:hover {
+    background-color: rgb(148, 188, 223);
+}
