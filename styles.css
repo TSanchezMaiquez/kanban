@@ -93,4 +93,6 @@ i{
 }
 .card:hover {
     background-color: rgb(148, 188, 223);
+    cursor: pointer;
+
 }
